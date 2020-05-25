@@ -20,7 +20,6 @@ try:
     for ip in lines:
         obj = IPWhois(ip)
         out = obj.lookup()
-#
         f = out["nets"][0]['city']
         a = out["nets"][0]['country']
         g = out["nets"][0]['description']
