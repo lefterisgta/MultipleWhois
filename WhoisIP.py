@@ -24,12 +24,11 @@ try:
         f = out["nets"][0]['city']
         a = out["nets"][0]['country']
         g = out["nets"][0]['description']
-        b = out["nets"][0]['emails']
         h = out["nets"][0]['name']
         rangs = out["nets"][0]['range']
         e = out["nets"][0]['state']
 
-        c.writerow([ip, a, e, f, g, h, b, rangs])
+        c.writerow([ip, a, e, f, g, h, rangs])
     fileOpne.close()
 except Exception as an:
     print "Error in input file :", an
