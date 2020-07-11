@@ -3,7 +3,7 @@
 import sys
 import os
 import socket
-
+#
 # Set input file path with domains separated by lines
 domains_input = raw_input("Enter input domains file (lookup/domains-input.txt): ")
 
